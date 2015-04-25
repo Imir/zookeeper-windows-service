@@ -1,10 +1,4 @@
 @echo off
-REM Imir, 4/24/2015
-REM Installs ZooKeeper as a windows service
-REM References:
-REM https://joerglenhard.wordpress.com/2012/05/29/build-windows-service-from-java-application-with-procrun/
-REM http://commons.apache.org/proper/commons-daemon/procrun.html
-REM http://docs.oracle.com/javase/6/docs/technotes/tools/windows/java.html#options
 
 SET HOME=C:\zookeeper-3.4.6
 SET SERVICE_DIR=C:\zookeeper-3.4.6\Service
