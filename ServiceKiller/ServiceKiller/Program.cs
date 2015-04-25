@@ -48,7 +48,7 @@ namespace ServiceKiller
                 Process proc = Process.GetProcessById(pid);
                 if (proc != null) { proc.Kill(); }
             }
-            catch { throw; }
+            catch { }
         }
     }
 }
